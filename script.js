@@ -89,9 +89,18 @@ function div() {
     // tela += valorClicado;
     document.getElementById("calculo").innerText += valorClicado;
 }
-function del() {
+function limparEquacao() {
+    document.getElementById("calculo").textContent = null;
+    
+}
+function limparTudo() {
     document.getElementById("calculo").textContent = null;
     document.getElementById("resultado").innerText = null;
+}
+function del(){
+    tela = document.getElementById("calculo").textContent;
+    tela = tela.substring(0, tela.length - 1);
+    document.getElementById("calculo").textContent = tela;
 }
 function resultado() {
     equacao = document.getElementById("calculo").textContent;

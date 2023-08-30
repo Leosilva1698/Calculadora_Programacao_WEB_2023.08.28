@@ -15,16 +15,18 @@
             <h4>Digite sua operação:</h4>
             <input type="text"  id="numero">
         </div>     -->
+        Calculadora
         <div id="calculo">
         </div>
+        Resultado:
         <div id="resultado">
-            
+
         </div>
         <br>
         <div id="caixa_botoes">
-            <button></button>
-            <button></button>
-            <button id="DEL" onclick="del()">LIMPAR</button>
+            <button onclick="limparTudo()">CE</button>
+            <button id="C" onclick="limparEquacao()">C</button>
+            <button id="DEL" onclick="del()">DEL</button>
             <button value="/" id="div" onclick="div()">/</button>
             <button class="number" value="7" id="sete" onclick="sete()">7</button>
             <button class="number" value="8" id="oito" onclick="oito()">8</button>

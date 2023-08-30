@@ -63,7 +63,11 @@ body {
 #caixa_botoes #equal-btn:hover {
     background-color: #3a91d8;
 }
-#resultado{
+
+#resultado {
     text-align: right;
-    background-color: white;
+    background-color: lightgray;
+    height: 40px;
+    overflow-wrap: break-word;
+    text-size-adjust: 20px;
 }
